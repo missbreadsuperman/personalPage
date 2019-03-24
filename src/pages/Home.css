@@ -1,4 +1,7 @@
 .container {
   font-family: 'Merriweather', serif, 'Noto Serif TC', serif;
+}
 
+.contact .card-body {
+  padding:0;
 }

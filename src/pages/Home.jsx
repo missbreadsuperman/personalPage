@@ -10,8 +10,14 @@ class Home extends Component {
     <div>
       <Header />
       <div className="container">
-        <h2>Welcome</h2>
-        <p>world</p>
+        <h2>Contact Me</h2>
+        <div className="card contact">
+          <div className="card-body">
+            Email: <a href="mailto:missbreadsuperman@gmail.com">missbreadsuperman@gmail.com</a>
+            <br />Github: <a href="https://github.com/missbreadsuperman">https://github.com/missbreadsuperman</a>
+            <br />phone: 0975073102
+          </div>
+      </div>
       </div> 
       <Footer />
     </div>
