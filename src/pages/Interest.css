@@ -1,0 +1,37 @@
+.headText {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+.card {
+  padding: 30px;
+}
+
+.card-title {
+  line-height: 3px;
+  padding-bottom: 10px;
+  background-color: #a2c4c8;
+}
+
+.card-text {
+  font-size:20px;
+}
+
+.card img {
+  display: block;
+  object-fit: cover;
+  height: 180px;
+  width: 200px;
+  opacity: 0.9;
+}
+
+.card .Basketball {
+  content: url('../images/basketball.jpg');
+}
+
+.card .Music {
+  content: url('../images/guitar.jpg');
+}
+
+.card .Workout {
+  content: url('../images/workout.JPG');
+}

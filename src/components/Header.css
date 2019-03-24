@@ -1,0 +1,49 @@
+.jumbotron {
+  background-image: url('../images/beach.jpg');
+  height: 500px;
+}
+
+.navbar {
+  right: 130px;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Pacifico', cursive;
+}
+
+.nav-link {
+  margin: 5px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  font-family: 'Pacifico', cursive;
+  margin: 15px;
+}
+.photo {
+  content: url('../images/picture.jpg');
+  display: block;
+  margin: auto;
+  object-fit: cover;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  border: white solid 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+}
